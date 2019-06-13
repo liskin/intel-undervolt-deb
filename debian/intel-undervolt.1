@@ -1,0 +1,32 @@
+.\" (C) Copyright 2019 Stephan Lachnit <stephanlachnit@protonmail.com>,
+.TH intel-undervolt 1 "June 16 2019"
+.SH NAME
+intel-undervolt \- tool for undervolting Intel CPUs
+.SH SYNOPSIS
+.B intel-undervolt
+.RI [ command ]
+.SH DESCRIPTION
+.PP
+\fBintel-undervolt\fP is a tool for undervolting CPUs,
+ working with Intel CPUs since Generation Haswell.
+ It can also change power and temperature limits.
+ Note: undervolting can cause stability issues
+.SH OPTIONS
+.TP
+.B read
+.br
+Read and display current values
+.TP
+.B apply
+.br
+Apply values from config file
+.TP
+.B measure
+.br
+Measure power consumption
+.TP
+.B daemon
+.br
+Run in daemon mode
+.SH SEE ALSO
+config file located at /etc/intel-undervolt.conf

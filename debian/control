@@ -1,0 +1,19 @@
+Source: intel-undervolt
+Section: utils
+Priority: optional
+Maintainer: Stephan Lachnit <stephanlachnit@protonmail.com>
+Build-Depends: debhelper (>=11), libglib2.0-dev, locales, pkg-config
+Standards-Version: 4.3.0
+Homepage: https://github.com/kitsunyan/intel-undervolt
+#Vcs-Browser: https://salsa.debian.org/debian/intel-undervolt
+#Vcs-Git: https://salsa.debian.org/debian/intel-undervolt.git
+
+Package: intel-undervolt
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, msr-tools, systemd
+Suggests: stress
+Description: tool for undervolting Intel CPUs
+ intel-undervolt is a tool for undervolting CPUs,
+ working with Intel CPUs since Generation Haswell.
+ It can also change power and temperature limits.
+ Note: undervolting can cause stability issues

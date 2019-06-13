@@ -1,0 +1,5 @@
+intel-undervolt (1.7-1) unstable; urgency=medium
+
+  * Initial release (Closes: #930500)
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Thu, 13 Jun 2019 09:40:04 +0200

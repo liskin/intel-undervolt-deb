@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: intel-undervolt
+Source: https://github.com/kitsunyan/intel-undervolt
+
+Files: *
+Copyright: 2019 kitsunyan <https://github.com/kitsunyan>
+License: GPL-3
+
+Files: debian/*
+Copyright: 2019 Stephan Lachnit <stephanlachnit@protonmail.com>
+License: GPL-3
+
+License: GPL-3
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
